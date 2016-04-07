@@ -1,17 +1,23 @@
 {
-  "browser": true,
-  "jquery": true,
-  "node": true,
-  "esnext": true,
-  "camelcase": true,
-  "eqeqeq": true,
-  "indent": 2,
-  "latedef": true,
-  "maxlen": 80,
-  "newcap": true,
-  "quotmark": "single",
-  "strict": true,
-  "undef": true,
-  "unused": true,
-  "eqnull": true
+    "rules": {
+        "indent": [
+            2,
+            2
+        ],
+        "quotes": [
+            2,
+            "single"
+        ],
+        "semi": [
+            2,
+            "always"
+        ]
+
+    },
+    "env": {
+        "es6": true,
+        "node": true,
+        "browser": true
+    },
+    "extends": "eslint:recommended"
 }
