@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "production": "webpack -p",
+    "develop": "webpack -d",
+    "watch": "webpack -d --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./bin/www"
   },
   "dependencies": {
