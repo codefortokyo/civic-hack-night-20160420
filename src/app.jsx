@@ -1,6 +1,7 @@
 var React = require('react');
+var ReactDOM = require('react-dom');
 
-var header = React.createClass({
+var Header = React.createClass({
   render: function() {
     return (
       <header class='clearfix'>
@@ -8,3 +9,8 @@ var header = React.createClass({
     );
   }
 });
+
+ReactDOM.render(
+  <Header />,
+  document.getElementById('body')
+);
