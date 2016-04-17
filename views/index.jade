@@ -4,15 +4,6 @@ block stylesheets
 
 block javascripts
   script(src='/javascripts/vendor/leaflet/leaflet.js')
-  script(src='/javascripts/app.js')
 
 block content
-  header
-  article
-  footer
-    span(style='margin-right: 4px;') made with
-    i.fa.fa-heart(aria-hidden=true)
-    span(style='margin-left: 4px;') by Code for Tokyo
-  script.
-    'use strict';
-    app(d3.select('body'));
+  script(src='/javascripts/bundle.js')
