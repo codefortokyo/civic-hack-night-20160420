@@ -9,10 +9,11 @@ block javascripts
 block content
   header
   article
-  footer
-    span(style='margin-right: 4px;') made with
-    i.fa.fa-heart(aria-hidden=true)
-    span(style='margin-left: 4px;') by Code for Tokyo
+  footer(class='clearfix')
+    div(class='center')
+      span(style='margin-right: 4px;') made with
+      i.fa.fa-heart(aria-hidden=true)
+      span(style='margin-left: 4px;') by Code for Tokyo
   script.
     'use strict';
     app(d3.select('body'));
