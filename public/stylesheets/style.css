@@ -1,17 +1,14 @@
-html
-{
+html {
   min-height: 100%;
 }
 
-body
-{
+body {
   width: 100%;
   font-size: 14px;
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
-*
-{
+* {
   margin: 0;
   padding: 0;
   border-width: 0;
@@ -19,8 +16,7 @@ body
   box-sizing: border-box;
 }
 
-ul
-{
+ul {
   list-style: none;
 }
 
@@ -34,8 +30,7 @@ ul
   display: block;
 }
 
-.clearfix::after
-{
+.clearfix::after {
   content: "";
   display: block;
   height: 0;
@@ -56,8 +51,7 @@ a:hover {
 a:active {
   color: #999999;
 }
-a
-{
+a {
   text-decoration: none;
 }
 
